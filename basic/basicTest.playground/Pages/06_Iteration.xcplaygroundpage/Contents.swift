@@ -88,3 +88,34 @@ while result < 10 {
 //result가 10이 되면 반복 종료
 
 // 1부터 10까지 출력
+
+
+// 한없이 반복되는 무한 루프
+// 잘 못 쓰면 시스템 다운
+//while true {
+//...
+//}
+
+// repeat {
+//   ...
+// }
+// while <조건>
+
+var repeatCount = 100
+
+repeat {
+    print("repeat\(repeatCount)")
+} while repeatCount < 99
+
+
+// 출력 repeat100
+// 먼저 프린트 문을 실행한 후에 조건식을 확인하기 때문에 조건식이 false라도 한 번은 출력되는 것
+
+var whileCount = 100
+
+while whileCount < 99 {
+    print("while\(whileCount)")
+}
+
+// 출력 없음
+// 조건식이 fasle기 때문에 프린트문 실행도 안함
